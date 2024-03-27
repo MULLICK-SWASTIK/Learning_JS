@@ -18,7 +18,7 @@ const id = Symbol('123')
 const diffId = Symbol('123')
 console.log(id === diffId);
 
-const bigNumber = 1313213212156466468778317821n
+// const bigNumber = 1313213212156466468778317821n
 
 // Reference (Non primitive)
 // Array, Objects, Functions
@@ -33,4 +33,7 @@ const myfunction = function () {
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof myfunction);
+console.log(typeof heros);
