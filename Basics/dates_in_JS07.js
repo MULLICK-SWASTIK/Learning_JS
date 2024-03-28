@@ -17,8 +17,20 @@ let myArbDate = new Date("2023-01-14")
 // let myArbDate = new Date("14-02-2024")
 console.log(myArbDate.toDateString());
 
-let myTimeStamp=Date.now()
+let myTimeStamp = Date.now()
 console.log(myTimeStamp);
 console.log(myArbDate.getTime());
-console.log(Math.floor(Date.now()/1000));
+console.log(Math.floor(Date.now() / 1000));
+
+
+let newD = new Date()
+console.log(newD);
+console.log(newD.getMonth() + 1);
+console.log(newD.getDay());
+
+// console.log(`Year: ${newD.getFullYear()}, Month: ${newD.getMonth() + 1}, Date: ${newD.getDate()}, Day: ${newD.getDay()}`)
+
+newD.toLocaleString('default', {
+    weekday: "long"
+})
 
